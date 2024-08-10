@@ -1,0 +1,47 @@
+nav{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.searchcomp>form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+#cityinp{
+    width: 95%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+#btn-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height:30px;
+    padding:10px;
+    border:none;
+    border-radius:40px;
+    margin-top:10px;
+    padding: 20px;
+    font-size: 16px;
+}
+#btn-f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height:30px;
+    padding:10px;
+    border:none;
+    border-radius:40px;
+    margin-top:10px;
+    padding: 20px;
+    font-size: 16px;
+
+}

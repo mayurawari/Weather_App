@@ -1,5 +1,75 @@
-.mainbox{
-    max-width: 100%;
-    
-    border: 1px solid;
+.themechange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.themechange > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+  transition: background-image 0.3s ease, color 0.3s ease;
+  color: white;
+}
+.mainbox {
+  display: flex;
+}
+
+.navbox-dark {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  transition: background-image 0.3s ease, color 0.3s ease;
+}
+.navbox-light {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  height: 100vh;
+  background-color: rgba(0, 0, 255, 0.398);
+  color: white;
+  transition: background-image 0.3s ease, color 0.3s ease;
+}
+.detailsbox-dark {
+  width: 75%;
+  background-image: url("https://images.pexels.com/photos/2403402/pexels-photo-2403402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: background-image 0.3s ease, color 0.3s ease;
+}
+.detailsbox-light {
+  width: 75%;
+  background-image: url("https://images.pexels.com/photos/799717/pexels-photo-799717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  color: rgba(0, 0, 0, 0.999);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: background-image 0.3s ease, color 0.3s ease;
+}
+#message-dark {
+    font-family: "Poppins", sans-serif;
+    line-height: 10px;
+    color: white;
+    transition: background-image 0.3s ease, color 0.3s ease;
+}
+#message-light {
+    font-family: "Poppins", sans-serif;
+    line-height: 10px;
+    color: rgba(0, 0, 0, 0.999);
+    transition: background-image 0.3s ease, color 0.3s ease;
 }
